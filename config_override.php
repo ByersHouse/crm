@@ -1,0 +1,44 @@
+<?php
+/***CONFIGURATOR***/
+$sugar_config['default_date_format'] = 'm/d/Y';
+$sugar_config['disable_persistent_connections'] = false;
+$sugar_config['email_xss'] = 'YToxMzp7czo2OiJhcHBsZXQiO3M6NjoiYXBwbGV0IjtzOjQ6ImJhc2UiO3M6NDoiYmFzZSI7czo1OiJlbWJlZCI7czo1OiJlbWJlZCI7czo0OiJmb3JtIjtzOjQ6ImZvcm0iO3M6NToiZnJhbWUiO3M6NToiZnJhbWUiO3M6ODoiZnJhbWVzZXQiO3M6ODoiZnJhbWVzZXQiO3M6NjoiaWZyYW1lIjtzOjY6ImlmcmFtZSI7czo2OiJpbXBvcnQiO3M6ODoiXD9pbXBvcnQiO3M6NToibGF5ZXIiO3M6NToibGF5ZXIiO3M6NDoibGluayI7czo0OiJsaW5rIjtzOjY6Im9iamVjdCI7czo2OiJvYmplY3QiO3M6MzoieG1wIjtzOjM6InhtcCI7czo2OiJzY3JpcHQiO3M6Njoic2NyaXB0Ijt9';
+$sugar_config['disabled_languages'] = '';
+$sugar_config['asterisk_host'] = '192.168.0.12';
+$sugar_config['asterisk_port'] = '5038';
+$sugar_config['asterisk_user'] = 'admin';
+$sugar_config['asterisk_secret'] = 'pupsik12';
+$sugar_config['asterisk_soapuser'] = 'admin';
+$sugar_config['asterisk_soappass'] = 'pupsik12';
+$sugar_config['asterisk_context'] = 'from-internal';
+$sugar_config['asterisk_expr'] = '^(sip\\/[1-9][0-9][0-9]?[0-9]?-|Local)';
+$sugar_config['asterisk_dialout_channel'] = 'SIP/###';
+$sugar_config['asterisk_dialin_ext_match'] = 'Local\\/(?:.*?)(\\d{2,10})#?@';
+$sugar_config['asterisk_rg_detect_expr'] = '^Local\\/RG';
+$sugar_config['asterisk_rg_cell_ring_expr'] = '^Local\\/\\d{7,10}';
+$sugar_config['asterisk_digits_to_match'] = '8';
+$sugar_config['asterisk_call_subject_inbound_abbr'] = 'IBC: ';
+$sugar_config['asterisk_call_subject_outbound_abbr'] = 'OBC: ';
+$sugar_config['asterisk_call_subject_max_length'] = '50';
+$sugar_config['asterisk_listener_poll_rate'] = '5000';
+$sugar_config['asterisk_short_call_status'] = 'Held';
+$sugar_config['asterisk_hide_call_popups_after_mins'] = '60';
+$sugar_config['asterisk_jquery_override'] = '0';
+$sugar_config['asterisk_max_popups'] = '5';
+$sugar_config['asterisk_logger_sql_mode'] = '0';
+$sugar_config['asterisk_block_button_enabled'] = '0';
+$sugar_config['asterisk_transfer_button_enabled'] = '1';
+$sugar_config['asterisk_relate_to_account_enabled'] = '0';
+$sugar_config['asterisk_relate_to_contact_enabled'] = '1';
+$sugar_config['asterisk_create_new_contact_enabled'] = '1';
+$sugar_config['asterisk_contact_phone_fields'] = 'phone_work,phone_home,phone_mobile,phone_other,assistant_phone';
+$sugar_config['asterisk_account_phone_fields'] = 'phone_office,phone_alternate';
+$sugar_config['asterisk_callinize_dev'] = '0';
+$sugar_config['asterisk_callinize_debug'] = '0';
+$sugar_config['passwordsetting']['SystemGeneratedPasswordON'] = '0';
+$sugar_config['SAML_loginurl'] = '';
+$sugar_config['SAML_X509Cert'] = '';
+$sugar_config['authenticationClass'] = '';
+$sugar_config['dbconfigoption']['collation'] = 'utf8_general_ci';
+$sugar_config['default_language'] = 'ru_RU';
+/***CONFIGURATOR***/
