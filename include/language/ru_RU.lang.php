@@ -42,7 +42,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-
+$GLOBALS['app_list_strings']['lead_status_list'] = array (
+  '' => '', 
+  '' => 'Лид',
+  'client' => 'Клиент',
+  'flagman' => 'Флагман продаж',
+  'vip' => 'V.I.P Клиент',
+);
 
 $app_list_strings = array(
 //e.g. auf Deutsch 'Contacts'=>'Contakten',
